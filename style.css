@@ -26,6 +26,16 @@ h1:hover {
     opacity: 20%;
 }
 
+h4{
+    color: blueviolet;
+    font-weight: 500;
+}
+
+h4:first-child{
+    color: blueviolet;
+    font-weight: 700;
+}
+
 main{
     text-align: justify;
     width: 95%;
@@ -39,4 +49,12 @@ main{
     width: 95%;
     height: 180px;
     padding: 2rem;
+}
+
+.paragraph{
+    padding-left: 10px;
+}
+
+p:first-child{
+    padding-top: 20px;
 }
